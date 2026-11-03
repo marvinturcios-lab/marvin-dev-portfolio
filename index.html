@@ -1,99 +1,628 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio personal de Marvin Turcios, estudiante de Ingeniería en Desarrollo de Software.">
-    <title>Marvin Turcios | Desarrollador de Software</title>
+
+    <meta name="description"
+        content="Portafolio personal de Marvin Turcios, estudiante de Ingeniería en Desarrollo de Software.">
+
+    <meta name="theme-color" content="#f4f8ff">
+
+    <title>Marvin Turcios | Marvin.dev</title>
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <script src="js/animations.js" defer></script>
+
 </head>
 
 <body>
 
-    <!-- ENCABEZADO Y NAVEGACIÓN -->
+    <!-- =================================================
+         ENCABEZADO Y NAVEGACIÓN
+    ================================================== -->
+
     <header>
+
         <nav>
-            <a href="index.html" class="logo">MARVIN.DEV</a>
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+                Marvin.dev<span>.</span>
+            </a>
 
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#inicio" class="active">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
             </ul>
+
+            <div class="nav-actions">
+
+                <a href="#contacto" class="nav-contact">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    Contáctame
+                </a>
+
+            </div>
+
         </nav>
+
     </header>
+
 
     <main>
 
-        <!-- PRESENTACIÓN PRINCIPAL -->
+        <!-- =================================================
+             1. PRESENTACIÓN PRINCIPAL
+        ================================================== -->
+
         <section id="inicio">
-            <p>Hola, soy Marvin Turcios</p>
-            <h1>Estudiante de Ingeniería en Desarrollo de Software</h1>
-            <p>
-                Me apasiona la tecnología, el desarrollo web
-                y la creación de soluciones digitales.
-            </p>
 
-            <a href="#proyectos">Ver mis proyectos</a>
-            <a href="#contacto">Contactarme</a>
+            <div class="hero-content">
+
+                <span class="hero-greeting">
+                    👋 ¡Hola!
+                </span>
+
+                <h1>
+                    Soy <span>Marvin</span> Turcios
+                </h1>
+
+                <h2>
+                    Estudiante de Ingeniería en Desarrollo de Software
+                </h2>
+
+                <p>
+                    Apasionado por la tecnología, el desarrollo de software
+                    y la creación de soluciones digitales. Actualmente me
+                    encuentro en constante aprendizaje, fortaleciendo mis
+                    habilidades en desarrollo web, programación y diseño
+                    de interfaces.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#proyectos" class="btn-primary">
+                        Ver proyectos
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contacto" class="btn-outline">
+                        <i class="fa-regular fa-envelope"></i>
+                        Contáctame
+                    </a>
+
+                </div>
+
+                <!-- REDES SOCIALES -->
+
+                <div class="social-links">
+
+                    <a href="https://github.com/marvinturcios-lab"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- IMAGEN PRINCIPAL -->
+
+            <div class="hero-image">
+
+                <div class="image-decoration"></div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85"
+                    alt="Espacio de trabajo con computadora y código">
+
+                <div class="floating-badge">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    En constante aprendizaje
+
+                </div>
+
+            </div>
+
         </section>
 
-        <!-- SOBRE MÍ -->
-        <section id="sobre-mi">
-            <h2>Sobre mí</h2>
-            <p>
-                Soy estudiante de Ingeniería en Desarrollo de Software.
-                Me interesa aprender nuevas tecnologías, desarrollar
-                mis habilidades y convertir ideas en soluciones digitales.
-            </p>
+
+        <!-- =================================================
+             2. ESTADÍSTICAS
+        ================================================== -->
+
+        <section id="estadisticas">
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div>
+                    <h3>03+</h3>
+                    <p>Proyectos académicos y personales</p>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div>
+                    <h3>Universitario</h3>
+                    <p>Ingeniería en Desarrollo de Software</p>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <div>
+                    <h3>+05</h3>
+                    <p>Tecnologías y herramientas exploradas</p>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+
+                <div>
+                    <h3>Siempre</h3>
+                    <p>Aprendiendo algo nuevo</p>
+                </div>
+
+            </div>
+
         </section>
 
-        <!-- HABILIDADES -->
+
+        <!-- =================================================
+             3. HABILIDADES Y TECNOLOGÍAS
+        ================================================== -->
+
         <section id="habilidades">
-            <h2>Mis habilidades</h2>
 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>C#</li>
-                <li>Python</li>
-                <li>Git y GitHub</li>
-            </ul>
+            <div class="section-heading">
+
+                <span class="section-tag">
+                    Tecnologías
+                </span>
+
+                <h2>
+                    Herramientas y <span>tecnologías</span>
+                </h2>
+
+                <p>
+                    Conocimientos que utilizo y continúo fortaleciendo
+                    durante mi formación académica.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <i class="fa-brands fa-html5 html-icon"></i>
+
+                    <h3>HTML</h3>
+
+                    <p>Estructura web</p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <i class="fa-brands fa-css3-alt css-icon"></i>
+
+                    <h3>CSS</h3>
+
+                    <p>Diseño web</p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <i class="fa-brands fa-js js-icon"></i>
+
+                    <h3>JavaScript</h3>
+
+                    <p>Programación web</p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <i class="fa-solid fa-hashtag csharp-icon"></i>
+
+                    <h3>C#</h3>
+
+                    <p>Desarrollo de software</p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <i class="fa-brands fa-python python-icon"></i>
+
+                    <h3>Python</h3>
+
+                    <p>Programación</p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <i class="fa-brands fa-git-alt git-icon"></i>
+
+                    <h3>Git</h3>
+
+                    <p>Control de versiones</p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <i class="fa-brands fa-github github-icon"></i>
+
+                    <h3>GitHub</h3>
+
+                    <p>Repositorios</p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <i class="fa-solid fa-database database-icon"></i>
+
+                    <h3>SQLite</h3>
+
+                    <p>Bases de datos</p>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <i class="fa-brands fa-figma figma-icon"></i>
+
+                    <h3>Figma</h3>
+
+                    <p>Diseño de interfaces</p>
+
+                </article>
+
+            </div>
+
         </section>
 
-        <!-- PROYECTOS -->
+
+        <!-- =================================================
+             4. PROYECTOS DESTACADOS
+        ================================================== -->
+
         <section id="proyectos">
-            <h2>Proyectos destacados</h2>
 
-            <article>
-                <h3>Proyecto académico</h3>
-                <p>Descripción de uno de mis proyectos de desarrollo.</p>
-            </article>
+            <div class="projects-heading">
 
-            <article>
-                <h3>Proyecto personal</h3>
-                <p>Exploración de tecnologías y desarrollo de soluciones.</p>
-            </article>
+                <div>
+
+                    <span class="section-tag">
+                        Proyectos destacados
+                    </span>
+
+                    <h2>
+                        Mis <span>proyectos</span>
+                    </h2>
+
+                    <p>
+                        Una selección de proyectos académicos y personales
+                        en los que he trabajado.
+                    </p>
+
+                </div>
+
+                <a href="projects.html" class="projects-link">
+                    Ver todos
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- PROYECTO 1 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85"
+                            alt="Sistema de gestión de información">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            Aplicación de escritorio
+                        </span>
+
+                        <h3>Sistema de Biblioteca</h3>
+
+                        <p>
+                            Sistema desarrollado en C# con SQLite
+                            para gestionar libros, usuarios y préstamos.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>C#</span>
+                            <span>SQLite</span>
+                            <span>Windows Forms</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROYECTO 2 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?auto=format&fit=crop&w=900&q=85"
+                            alt="Proyecto de bot y programación">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            Bot de Discord
+                        </span>
+
+                        <h3>Bot de Discord</h3>
+
+                        <p>
+                            Desarrollo de bots con comandos personalizados,
+                            sistemas de economía y funcionalidades interactivas.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>JavaScript</span>
+                            <span>Discord.js</span>
+                            <span>SQLite</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROYECTO 3 -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85"
+                            alt="Diseño de tienda digital de panadería">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            Diseño UI/UX
+                        </span>
+
+                        <h3>Panizzimo</h3>
+
+                        <p>
+                            Diseño y prototipo de una tienda digital
+                            para una panadería, utilizando Figma.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Figma</span>
+                            <span>UI/UX</span>
+                            <span>Prototipado</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
 
-        <!-- CONTACTO -->
+
+        <!-- =================================================
+             5. SOBRE MÍ
+        ================================================== -->
+
+        <section id="sobre-mi">
+
+            <div class="about-content">
+
+                <span class="section-tag">
+                    Sobre mí
+                </span>
+
+                <h2>
+                    Conóceme <span>mejor</span>
+                </h2>
+
+                <p>
+                    Soy Marvin Emanuel Turcios Flores, estudiante de
+                    Ingeniería en Desarrollo de Software, con interés
+                    en el desarrollo web, la programación y la creación
+                    de soluciones tecnológicas.
+                </p>
+
+                <p>
+                    Me considero una persona curiosa, comprometida
+                    y proactiva, con ganas de aprender, colaborar
+                    y enfrentar nuevos retos que me permitan seguir creciendo.
+                </p>
+
+                <div class="about-details">
+
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>El Salvador</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>Estudiante universitario</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Tecnología y desarrollo</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="about-decoration">
+
+                <i class="fa-solid fa-laptop-code"></i>
+
+                <span>Aprender · Crear · Innovar</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             6. CONTACTO
+        ================================================== -->
+
         <section id="contacto">
-            <h2>¿Hablamos?</h2>
-            <p>Estoy abierto a aprender, colaborar y desarrollar nuevas ideas.</p>
-            <a href="#contacto">
-                Enviarme un correo
-            </a>
+
+            <div class="contact-content">
+
+                <span class="section-tag">
+                    Hablemos
+                </span>
+
+                <h2>
+                    ¿Tienes una idea o proyecto?
+                </h2>
+
+                <p>
+                    Estoy abierto a aprender, colaborar y participar
+                    en nuevos proyectos. ¡Será un gusto conectar contigo!
+                </p>
+
+                <a href="contact.html" class="btn-primary">
+
+                    <i class="fa-regular fa-paper-plane"></i>
+
+                    Contáctame
+
+                </a>
+
+            </div>
+
+            <div class="contact-icon">
+
+                <i class="fa-regular fa-comments"></i>
+
+            </div>
+
         </section>
 
     </main>
 
-    <!-- PIE DE PÁGINA -->
+
+    <!-- =================================================
+         7. PIE DE PÁGINA
+    ================================================== -->
+
     <footer>
-        <p>&copy; 2026 Marvin Turcios. Todos los derechos reservados.</p>
+
+        <a href="#inicio" class="footer-logo">
+            Marvin.dev<span>.</span>
+        </a>
+
+        <p>
+            Diseñado y desarrollado por Marvin Turcios.
+        </p>
+
+        <p class="copyright">
+            &copy; 2026 Marvin Turcios. Todos los derechos reservados.
+        </p>
+
+        <a href="https://github.com/marvinturcios-lab"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub">
+
+            <i class="fa-brands fa-github"></i>
+
+        </a>
+
     </footer>
 
 </body>
+
 </html>
