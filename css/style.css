@@ -1567,3 +1567,99 @@ footer > a:last-child:hover { color: var(--primary); transform: translateY(-4px)
         padding: 24px 20px;
     }
 }
+
+
+/* Ajustes de navegación en pantallas móviles */
+@media (max-width: 700px) {
+    nav {
+        padding: 10px 12px;
+        gap: 7px;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+
+    .logo i {
+        font-size: 23px;
+    }
+
+    nav ul {
+        width: auto;
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    nav ul li a {
+        padding: 7px 7px;
+        font-size: 11px;
+    }
+
+    .nav-actions {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-contact {
+        padding: 8px 11px;
+        font-size: 11px;
+    }
+}
+
+/* Ajuste para celulares pequeños */
+@media (max-width: 360px) {
+    nav ul {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    nav ul li a {
+        padding: 7px 6px;
+        font-size: 10px;
+    }
+
+    .nav-actions {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+/* Ajustes de navegación para tablets */
+@media (min-width: 701px) and (max-width: 850px) {
+    nav {
+        padding: 10px 16px;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+        gap: 6px;
+    }
+
+    .logo i {
+        font-size: 22px;
+    }
+
+    nav ul {
+        flex: 1;
+        min-width: 0;
+        gap: 0;
+    }
+
+    nav ul li a {
+        padding: 8px 7px;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .nav-actions {
+        flex-shrink: 0;
+    }
+
+    .nav-contact {
+        padding: 9px 12px;
+        font-size: 11px;
+        white-space: nowrap;
+    }
+}
